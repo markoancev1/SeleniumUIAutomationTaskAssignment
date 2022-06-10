@@ -4,9 +4,9 @@ using SeleniumUIAutomationTaskAssignment.Utilities;
 namespace SeleniumUIAutomationTaskAssignment
 {
     [TestFixture(BrowserType.Chrome)]
+    [TestFixture(BrowserType.Firefox)]
     class ShoppingCartTestCase : TestBase
     {
-        //static ExtentTest test;
         Selectors selectors;
 
         public ShoppingCartTestCase(BrowserType browser) : base(browser) { }

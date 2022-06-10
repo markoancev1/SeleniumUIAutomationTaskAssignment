@@ -5,9 +5,9 @@ using SeleniumUIAutomationTaskAssignment.Utilities;
 namespace SeleniumUIAutomationTaskAssignment
 {
     [TestFixture(BrowserType.Chrome)]
+    [TestFixture(BrowserType.Firefox)]
     class PaginationTestCase : TestBase
     {
-        //static ExtentTest test;
         Selectors selectors;
 
         public PaginationTestCase(BrowserType browser) : base(browser) { }
